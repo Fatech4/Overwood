@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -905,7 +908,7 @@ footer .social-icons a {
     width: 42px;
     height: 42px;
     line-height: 40px;
-    opacity: 0;
+    /* opacity: 0; */
     outline: medium none;
     position: fixed;
     right: 40px;
@@ -914,9 +917,7 @@ footer .social-icons a {
     transition: opacity 0.2s ease-out 0s;
     z-index: 1000;
 }
-#back-to-top.show{
-    opacity: 1;
-}
+
 #back-to-top:before {
     color: #fff;
     content: "\f106";
@@ -925,6 +926,9 @@ footer .social-icons a {
     font-size: 22px;
     margin: 5px;
     position: relative;
+}
+#back-to-top{
+    display: none;
 }
 /*Slick slider styling*/
 .slick-arrow {
