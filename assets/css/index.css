@@ -178,17 +178,25 @@ background: none;
     right:18px;
     height: 40px;
     top:15px;
-}
-.mobile-sub-menu i{
-    position:absolute;
-    color: #fff;
-    right:18px;
-    height: 40px;
-    top:15px;
-}
+     -webkit-transform-origin: 1.5px center;
+    transform-origin: 1.5px center;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;}
+
 .mobile-sub-menu .arrow.active i{
     transform: rotate(45deg);
-    top:11px;
+    top:10px;
+    right: 30px;
+     -webkit-transform-origin: 1.5px center;
+    transform-origin: 1.5px center;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
 }
 .mobile-nav .btn-login, .btn-register{
     text-align: center;
